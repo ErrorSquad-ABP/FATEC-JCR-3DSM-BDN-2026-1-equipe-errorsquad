@@ -21,12 +21,12 @@ Repositorio da atividade de Banco de Dados Nao Relacional (MongoDB), tema **1000
 
 ```mermaid
 flowchart LR
-    A[Origens de Lead\nPresencial/Telefone/WhatsApp/Instagram/Form] --> B[leads]
+    A["Origens de Lead - Presencial, Telefone, WhatsApp, Instagram, Form"] --> B["leads"]
     B --> C[negociacoes]
     B --> D[clientes]
     B --> E[usuarios]
     B --> F[lojas]
-    C --> G[historico de estagios\n(embedding)]
+    C --> G["historico de estagios - embedding"]
     B --> H[logs de operacao]
 ```
 

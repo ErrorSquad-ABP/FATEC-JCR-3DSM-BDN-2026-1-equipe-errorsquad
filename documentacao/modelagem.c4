@@ -10,7 +10,7 @@ flowchart TB
     Vendedor[Atendente/Vendedor]
     Gerente[Gerente comercial]
     Admin[Administrador]
-    Sistema[Sistema de Gestao de Leads\n1000 Valle Multimarcas]
+    Sistema["Sistema de Gestao de Leads - 1000 Valle Multimarcas"]
 
     Cliente -->|gera interesse por canais| Sistema
     Vendedor -->|atualiza lead e negociacao| Sistema
@@ -22,7 +22,7 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    UI[Canal de Captura\n(telefone, WhatsApp, Instagram, form)]
+    UI["Canal de Captura - telefone, WhatsApp, Instagram, form"]
     API[Camada de Aplicacao]
     DB[(MongoDB)]
     BI[Painel Gerencial]
